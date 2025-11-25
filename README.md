@@ -8,6 +8,8 @@
 
 **Classic arcade game reimagined in C++ with advanced OOP design**
 
+**🎯 Quick Start:** Just run `build.bat` to compile and `run.bat` to play!
+
 [Features](#-features) • [Gameplay](#-gameplay) • [Architecture](#-architecture) • [Installation](#-installation) • [Controls](#-controls)
 
 </div>
@@ -51,14 +53,28 @@ A feature-rich **C++ console implementation** of the classic Donkey Kong arcade 
 
 ---
 
-## 🚀 Installation
+## 🚀 Installation & Running
 
-### Prerequisites
+### 🎮 Quick Play (No Installation Required)
+
+**Want to just play the game?**
+
+1. **Download the latest release** from [Releases](https://github.com/Dan-Ofri/DonkeyKongOG/releases)
+2. **Extract the ZIP file**
+3. **Double-click `DonkeyKongOG.exe`** to play!
+
+> ⚠️ **Note**: If no release is available yet, follow the "Build from Source" instructions below.
+
+---
+
+### 💻 Build from Source
+
+#### Prerequisites
 - **Windows OS** (7/8/10/11)
 - **Visual Studio 2019+** with C++ Desktop Development workload
 - **C++17** or higher
 
-### Quick Start
+#### Option 1: Using Visual Studio (Recommended)
 
 1. **Clone the repository**
    ```bash
@@ -71,13 +87,51 @@ A feature-rich **C++ console implementation** of the classic Donkey Kong arcade 
    - Or use command: `start DonkeyKongOG.sln`
 
 3. **Build and Run**
-   - Press `F5` or click **Start**
-   - Or build manually: `Build → Build Solution`
+   - Press `F5` or click **Start** (Debug mode)
+   - Or press `Ctrl+F5` for Release mode
+   - Or manually: `Build → Build Solution` then run the `.exe`
 
-### Alternative: Run Pre-built Executable
+#### Option 2: Using Build Scripts (Easiest!)
+
+**One-click build:**
 ```bash
-cd x64\Debug
-DonkeyKongOG.exe
+# Just double-click build.bat or run:
+build.bat
+```
+
+**One-click run:**
+```bash
+# Just double-click run.bat or run:
+run.bat
+```
+
+The scripts will:
+- ✅ Check for MSBuild automatically
+- ✅ Build the project in Release mode
+- ✅ Offer to run the game immediately
+- ✅ Show clear error messages if something goes wrong
+
+#### Option 3: Command Line (Advanced)
+
+**Using MSBuild:**
+```powershell
+# Build the project
+MSBuild DonkeyKongOG.sln /p:Configuration=Release /p:Platform=x64
+
+# Run the game
+.\x64\Release\DonkeyKongOG.exe
+```
+
+**Using g++ (MinGW/MSYS2):**
+```bash
+g++ -std=c++17 -o DonkeyKongOG.exe *.cpp -I.
+./DonkeyKongOG.exe
+```
+
+**Using clang++:**
+```bash
+clang++ -std=c++17 -o DonkeyKongOG.exe *.cpp -I.
+./DonkeyKongOG.exe
 ```
 
 ---
