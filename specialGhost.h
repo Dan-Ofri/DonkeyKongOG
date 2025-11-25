@@ -2,7 +2,7 @@
 #define SPECIAL_GHOST_H
 
 #include "point.h"
-#include "GameConfig.h"
+#include "gameConfig.h"
 #include "board.h"
 #include <cstdlib> // For rand()
 #include "ghost.h"

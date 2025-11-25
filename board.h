@@ -1,7 +1,7 @@
 #ifndef BOARD_H
 #define BOARD_H
 
-#include "GameConfig.h"
+#include "gameConfig.h"
 #include "utils.h"
 #include <vector>
 #include <fstream>

@@ -1,7 +1,7 @@
 #ifndef ENEMY_H
 #define ENEMY_H
 
-#include "Point.h"
+#include "point.h"
 
 // Base class representing an enemy in the game
 class Enemy

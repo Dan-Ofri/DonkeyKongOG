@@ -1,5 +1,5 @@
 #include "utils.h"
-#include "GameConfig.h"
+#include "gameConfig.h"
 
 using namespace std;
 

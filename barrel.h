@@ -2,7 +2,7 @@
 #define BARREL_H
 
 #include "point.h"
-#include "GameConfig.h"
+#include "gameConfig.h"
 #include "board.h"
 #include "enemy.h"
 
