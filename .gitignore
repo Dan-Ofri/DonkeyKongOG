@@ -83,6 +83,10 @@ $RECYCLE.BIN/
 *.out
 *.app
 
+# Release packages
+Release-Package/
+*.zip
+
 # Keep level files and test data
 !*.screen
 !*.steps
