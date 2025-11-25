@@ -3,9 +3,19 @@
 ## For Players (Just Want to Play)
 
 ### Windows Users:
-1. Download from [Releases](https://github.com/Dan-Ofri/DonkeyKongOG/releases) *(coming soon)*
+1. Download from [Releases](https://github.com/Dan-Ofri/DonkeyKongOG/releases/latest)
 2. Extract the ZIP
 3. Double-click `DonkeyKongOG.exe`
+
+**⚠️ Windows SmartScreen Warning:**  
+You'll see **"Windows protected your PC"** - this is normal!
+
+**To bypass:**
+1. Click **"More info"** 
+2. Click **"Run anyway"**
+
+✅ The app is safe - all code is open-source on GitHub!
+
 4. **Enjoy!** 🦍
 
 ---
