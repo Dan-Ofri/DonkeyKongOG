@@ -187,12 +187,12 @@ DonkeyKongOG.exe -load -silent
 
 | Key | Action |
 |-----|--------|
-| **A** / **Left** | Move Left |
-| **D** / **Right** | Move Right |
-| **W** / **Up** | Climb Up (on ladders) |
-| **X** / **Down** | Climb Down (on ladders) |
-| **SPACE** | Stay in place |
-| **ESC** | Pause game / Stop game |
+| **a** or **A** | Move Left |
+| **d** or **D** | Move Right |
+| **w** or **W** | Climb Up / Jump |
+| **x** or **X** | Climb Down |
+| **s** or **S** | Stay in place |
+| **ESC** | Pause game |
 
 ---
 

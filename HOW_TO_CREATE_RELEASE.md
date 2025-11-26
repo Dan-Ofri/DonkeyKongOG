@@ -50,12 +50,12 @@ Classic Donkey Kong arcade game reimagined in modern C++ with advanced OOP desig
 
 | Key | Action |
 |-----|--------|
-| **A** | Move Left |
-| **D** | Move Right |
-| **W** | Climb Up / Jump |
-| **X** | Climb Down |
-| **S** | Stay in place |
-| **ESC** | Pause/Stop game |
+| **a** or **A** | Move Left |
+| **d** or **D** | Move Right |
+| **w** or **W** | Climb Up / Jump |
+| **x** or **X** | Climb Down |
+| **s** or **S** | Stay in place |
+| **ESC** | Pause game |
 
 ## 📋 What's Included
 

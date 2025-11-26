@@ -57,14 +57,12 @@ x64\Release\DonkeyKongOG.exe
 
 | Key | Action |
 |-----|--------|
-| **A** | Move Left |
-| **D** | Move Right |
-| **W** | Climb Up / Jump |
-| **X** | Climb Down |
-| **S** | Stay in place |
-| **ESC** | Pause/Stop game |
-
-> Keys work in both upper and lower case
+| **a** or **A** | Move Left |
+| **d** or **D** | Move Right |
+| **w** or **W** | Climb Up / Jump |
+| **x** or **X** | Climb Down |
+| **s** or **S** | Stay in place |
+| **ESC** | Pause game |
 
 ## Quick Game Guide
 
