@@ -33,9 +33,9 @@ A feature-rich **C++ console implementation** of the classic Donkey Kong arcade 
 
 ### 🎨 Gameplay Features
 - **Multi-level progression** - 3 challenging pre-built levels (dkong_01/02/03)
-- **Dynamic enemies** - Barrels roll and fall, Ghosts move randomly, Special Ghosts chase intelligently
-- **Power-ups** - Hammer (`T`) provides 20 moves of invincibility
-- **Lives system** - 3 lives per game (♥♥♥)
+- **Dynamic enemies** - Barrels (`$`) roll and fall, Ghosts (`^`) move randomly, Special Ghosts (`*`) are smarter
+- **Power-up** - Hammer (`P`) provides 20 moves of invincibility
+- **Lives system** - 3 lives per game (displayed as hearts)
 - **Objective** - Reach Pauline (`&`) at the top to win
 - **Console graphics** - ASCII art with dynamic board rendering
 
@@ -214,7 +214,7 @@ DonkeyKongOG.exe -load -silent
 | `$` | **Barrel** (rolling enemy) |
 | `^` | **Ghost** (moving enemy) |
 | `*` | **Special Ghost** (smarter enemy) |
-| `T` | **Hammer** (power-up for invincibility) |
+| `P` | **Hammer** (power-up for invincibility) |
 
 ### Lives System
 - Start with **3 lives** (`♥♥♥`)
@@ -222,9 +222,10 @@ DonkeyKongOG.exe -load -silent
 - Game over when all lives lost
 
 ### Hammer Power-up
+- Symbol: **`P`** on the board
 - Duration: **20 moves** after pickup
 - Effect: **Temporary invincibility** - enemies can't hurt you
-- Visual: Mario becomes `+` while powered up
+- Visual: Mario displays as `@` (same symbol)
 - Strategic use: Clear path through dense enemy areas
 
 ### Enemy Behaviors

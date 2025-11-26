@@ -77,11 +77,11 @@ x64\Release\DonkeyKongOG.exe
 - `$` = Barrels (enemies)
 - `^` = Ghosts (enemies)
 - `*` = Special Ghosts (smart enemies)
-- `T` = Hammer (20 moves of invincibility!)
+- `P` = Hammer (20 moves of invincibility!)
 
 **Tips:**
-- You have 3 lives (♥♥♥)
-- Grab the hammer (`T`) to become invincible!
+- You have 3 lives (shown as hearts)
+- Grab the hammer (`P`) to become invincible!
 - Avoid enemies or use hammer power
 - Use ladders strategically to dodge barrels
 
