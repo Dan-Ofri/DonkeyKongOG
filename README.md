@@ -199,21 +199,25 @@ DonkeyKongOG.exe -load -silent
 ## 🎯 Game Rules & Mechanics
 
 ### Objective
-- **Win**: Reach Pauline (`&`) at the top of the level
+- **Win**: Reach Pauline (`$`) - usually at the top of the level
+- **Avoid**: Donkey Kong (`&`) and his barrels (`O`)
 - **Lose**: All 3 lives lost by enemy collision
 
 ### Game Board Elements
 
 | Symbol | Meaning |
-|--------|---------|
+|--------|---------||
 | `@` | **Mario** (player character) |
-| `&` | **Pauline** (objective - reach her to win!) |
-| `#` | **Wall** (solid obstacle) |
+| `$` | **Pauline** (objective - reach her to win!) |
+| `&` | **Donkey Kong** (at the top) |
+| `Q` | **Wall/Boundary** (board boundaries) |
 | `H` | **Ladder** (climb with W/X) |
-| `-` | **Floor** (walkable surface) |
-| `$` | **Barrel** (rolling enemy) |
-| `^` | **Ghost** (moving enemy) |
-| `*` | **Special Ghost** (smarter enemy) |
+| `=` | **Floor** (horizontal, barrels roll here) |
+| `<` | **Floor** (barrels move left) |
+| `>` | **Floor** (barrels move right) |
+| `O` | **Barrel** (rolling enemy) |
+| `x` | **Ghost** (moving enemy) |
+| `X` | **X character** (special element) |
 | `P` | **Hammer** (power-up for invincibility) |
 
 ### Lives System
@@ -230,20 +234,16 @@ DonkeyKongOG.exe -load -silent
 
 ### Enemy Behaviors
 
-**Barrel (`$`):**
-- Rolls horizontally left/right
+**Barrel (`O`):**
+- Rolls horizontally on floors (`=`, `<`, `>`)
+- Direction indicated by floor type
 - Falls down when reaching edge
-- Changes direction randomly
+- Deadly on contact
 
-**Ghost (`^`):**
-- Moves in random directions
-- Can move through some obstacles
+**Ghost (`x`):**
+- Moves in various directions
+- Can appear anywhere on board
 - Unpredictable movement pattern
-
-**Special Ghost (`*`):**
-- More intelligent movement
-- Tries to approach Mario
-- Harder to avoid
 
 ### Level Progression
 1. Start at bottom of screen

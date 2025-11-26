@@ -57,26 +57,28 @@ x64\Release\DonkeyKongOG.exe
 
 | Key | Action |
 |-----|--------|
-| **A** / **Left Arrow** | Move Left |
-| **D** / **Right Arrow** | Move Right |
-| **W** / **Up Arrow** | Climb Up (on ladders) |
-| **X** / **Down Arrow** | Climb Down (on ladders) |
-| **SPACE** | Stay in place |
+| **A** | Move Left |
+| **D** | Move Right |
+| **W** | Climb Up / Jump |
+| **X** | Climb Down |
+| **S** | Stay in place |
 | **ESC** | Pause/Stop game |
+
+> Keys work in both upper and lower case
 
 ## Quick Game Guide
 
-**Objective:** Climb to the top and reach Pauline (`&`)!
+**Objective:** Climb to reach Pauline (`$`)!
 
 **Game Board:**
 - `@` = Mario (you!)
-- `&` = Pauline (your goal!)
-- `#` = Walls
+- `$` = Pauline (your goal!)
+- `&` = Donkey Kong
+- `Q` = Walls/Boundaries
 - `H` = Ladders (climb with W/X)
-- `-` = Floors
-- `$` = Barrels (enemies)
-- `^` = Ghosts (enemies)
-- `*` = Special Ghosts (smart enemies)
+- `=`, `<`, `>` = Floors (barrels roll here)
+- `O` = Barrels (enemies - avoid!)
+- `x` = Ghosts (enemies)
 - `P` = Hammer (20 moves of invincibility!)
 
 **Tips:**
