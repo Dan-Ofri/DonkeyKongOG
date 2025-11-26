@@ -32,11 +32,12 @@ A feature-rich **C++ console implementation** of the classic Donkey Kong arcade 
 ## ✨ Features
 
 ### 🎨 Gameplay Features
-- **Multi-level progression** - Navigate through challenging levels
-- **Dynamic enemies** - Barrels, Ghosts, and Special Ghosts with unique behaviors
-- **Power-ups** - Hammer powerup for temporary invincibility
-- **Lives system** - 3 lives per game
-- **Score tracking** - Accumulate points for completing levels
+- **Multi-level progression** - 3 challenging pre-built levels (dkong_01/02/03)
+- **Dynamic enemies** - Barrels roll and fall, Ghosts move randomly, Special Ghosts chase intelligently
+- **Power-ups** - Hammer (`T`) provides 20 moves of invincibility
+- **Lives system** - 3 lives per game (♥♥♥)
+- **Objective** - Reach Pauline (`&`) at the top to win
+- **Console graphics** - ASCII art with dynamic board rendering
 
 ### 💻 Technical Highlights
 - **Polymorphic game modes** - Abstract base class with virtual methods
@@ -186,17 +187,69 @@ DonkeyKongOG.exe -load -silent
 
 | Key | Action |
 |-----|--------|
-| **A** | Move Left |
-| **D** | Move Right |
-| **W** | Climb Up (on ladders) |
-| **X** | Climb Down (on ladders) |
+| **A** / **Left** | Move Left |
+| **D** / **Right** | Move Right |
+| **W** / **Up** | Climb Up (on ladders) |
+| **X** / **Down** | Climb Down (on ladders) |
 | **SPACE** | Stay in place |
-| **ESC** | Pause game |
+| **ESC** | Pause game / Stop game |
 
-### Special Mechanics
-- **Hammer** - Pick up `T` to gain temporary invincibility
-- **Ladders** - Use `W/X` to climb `H` symbols
-- **Objectives** - Reach `&` to complete the level
+---
+
+## 🎯 Game Rules & Mechanics
+
+### Objective
+- **Win**: Reach Pauline (`&`) at the top of the level
+- **Lose**: All 3 lives lost by enemy collision
+
+### Game Board Elements
+
+| Symbol | Meaning |
+|--------|---------|
+| `@` | **Mario** (player character) |
+| `&` | **Pauline** (objective - reach her to win!) |
+| `#` | **Wall** (solid obstacle) |
+| `H` | **Ladder** (climb with W/X) |
+| `-` | **Floor** (walkable surface) |
+| `$` | **Barrel** (rolling enemy) |
+| `^` | **Ghost** (moving enemy) |
+| `*` | **Special Ghost** (smarter enemy) |
+| `T` | **Hammer** (power-up for invincibility) |
+
+### Lives System
+- Start with **3 lives** (`♥♥♥`)
+- Lose 1 life when hit by enemy
+- Game over when all lives lost
+
+### Hammer Power-up
+- Duration: **20 moves** after pickup
+- Effect: **Temporary invincibility** - enemies can't hurt you
+- Visual: Mario becomes `+` while powered up
+- Strategic use: Clear path through dense enemy areas
+
+### Enemy Behaviors
+
+**Barrel (`$`):**
+- Rolls horizontally left/right
+- Falls down when reaching edge
+- Changes direction randomly
+
+**Ghost (`^`):**
+- Moves in random directions
+- Can move through some obstacles
+- Unpredictable movement pattern
+
+**Special Ghost (`*`):**
+- More intelligent movement
+- Tries to approach Mario
+- Harder to avoid
+
+### Level Progression
+1. Start at bottom of screen
+2. Navigate ladders and platforms
+3. Avoid or use hammer against enemies
+4. Reach Pauline at the top
+5. Advance to next level
 
 ---
 

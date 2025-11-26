@@ -57,10 +57,33 @@ x64\Release\DonkeyKongOG.exe
 
 | Key | Action |
 |-----|--------|
-| **A** / **D** | Move Left/Right |
-| **W** / **X** | Climb Up/Down |
-| **SPACE** | Stay |
-| **ESC** | Pause |
+| **A** / **Left Arrow** | Move Left |
+| **D** / **Right Arrow** | Move Right |
+| **W** / **Up Arrow** | Climb Up (on ladders) |
+| **X** / **Down Arrow** | Climb Down (on ladders) |
+| **SPACE** | Stay in place |
+| **ESC** | Pause/Stop game |
+
+## Quick Game Guide
+
+**Objective:** Climb to the top and reach Pauline (`&`)!
+
+**Game Board:**
+- `@` = Mario (you!)
+- `&` = Pauline (your goal!)
+- `#` = Walls
+- `H` = Ladders (climb with W/X)
+- `-` = Floors
+- `$` = Barrels (enemies)
+- `^` = Ghosts (enemies)
+- `*` = Special Ghosts (smart enemies)
+- `T` = Hammer (20 moves of invincibility!)
+
+**Tips:**
+- You have 3 lives (♥♥♥)
+- Grab the hammer (`T`) to become invincible!
+- Avoid enemies or use hammer power
+- Use ladders strategically to dodge barrels
 
 ---
 
