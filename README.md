@@ -15,7 +15,7 @@
 
 Feature-rich **C++ console implementation** of Donkey Kong, showcasing **inheritance, polymorphism, file I/O, and game state management**.
 
-> **👥 Team Project:** Developed collaboratively with [@gurbe22](https://github.com/gurbe22). I implemented the enemy AI systems, save/load functionality, and replay mechanism using design patterns.
+> **👥 Team Project:** Developed collaboratively with [@gurbe22](https://github.com/gurbe22).
 
 ### 🎮 Game Modes
 - **Regular** - Classic arcade gameplay
